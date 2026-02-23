@@ -1,16 +1,6 @@
- datetime
- asyncio
- aiohttp
- requests
- pandas as pd
- aiogram  Bot, Dispatcher
- aiogram.types  Message, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
- aiogram.filters  Command
- aiogram.fsm.context  FSMContext
- aiogram.fsm.storage.memory  MemoryStorage
- aiogram.fsm.state  State, StatesGroup
- ta.trend  EMAIndicator, ADXIndicator
- ta.momentum  RSIIndicator
- ta.volatility  AverageTrueRange
- json
- os
+aiogram
+aiohttp
+requests
+pandas
+ta
+
