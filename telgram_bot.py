@@ -25,8 +25,7 @@ from ta.volatility import AverageTrueRange
 import json
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
-bot = Bot(token=API_TOKEN)
+BOT_TOKEN = os.getenv("BOT_TOKEN")bot = Bot(token=API_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
 headers = {'Authorization': 'u5STfPOsgEjtgZGj6q3O'}
 
@@ -795,3 +794,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
